@@ -1,0 +1,38 @@
+.nav-m {
+    height: 100px;
+}
+
+.home-m {
+    height: 600px;
+}
+
+
+/* .title {
+    font-size: 2.6rem;
+    margin-top: 80px;
+}
+
+.btn-demo {
+    color: white;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    margin-right: 15px;
+    background: rgb(25, 207, 116);
+    padding: 15px;
+}
+
+.btn-documentation {
+    color: white;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.4);
+} */
+
+.bg-gradient {
+    position: relative;
+    background: rgb(12, 105, 171);
+    background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+    border-radius: 100%/0 0 100px 100px;
+}
