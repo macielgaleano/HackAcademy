@@ -124,7 +124,7 @@ body {
     background-color: rgba(12, 105, 171, 0.6);
     /*chamge img*/
     z-index: -1;
-    background-image: url(".assets/bg-leading.jpg");
+    background-image: url("assets/bg-leading.jpg");
     box-shadow: inset 0 0 0 1000px rgba(0, 97, 242, 0.8);
 }
 
@@ -136,7 +136,7 @@ body {
     margin-right: 0;
 }
 
-.navbar-marketing .navbar-nav {
+.navbar-padding .navbar-nav {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
 }
@@ -160,7 +160,7 @@ body {
     margin-right: 1rem;
 }
 
-.navbar-marketing .navbar-nav .nav-item .nav-link {
+.navbar-padding .navbar-nav .nav-item .nav-link {
     font-weight: 500;
 }
 
@@ -181,8 +181,11 @@ body {
     padding-bottom: .3125rem;
     margin-right: 1rem;
     font-size: 1.25rem;
-    line-height: inherit;
     white-space: nowrap;
+}
+
+.nav-title:hover {
+    text-decoration: none;
 }
 
 
@@ -270,3 +273,20 @@ body {
 .bg-inverse {
     background: rgba(0, 0, 0, .6) !important;
 }
+
+.innerPages {
+    background: #eff3f9;
+}
+
+
+/*border grey*/
+
+
+/* .svg-border svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 100%;
+    background: #eff3f9;
+} */
