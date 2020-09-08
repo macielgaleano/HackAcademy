@@ -1,0 +1,96 @@
+.nav-m {
+    height: 100px;
+}
+
+.home-m {
+    height: 550px;
+}
+
+.title {
+    font-size: 2.6rem;
+    margin-top: 80px;
+}
+
+.btn-documentation {
+    color: white;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.bg-gradient {
+    position: relative;
+    background: rgb(12, 105, 171);
+    background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+    border-radius: 100%/0 0 100px 100px;
+}
+
+.svg-border svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 100%;
+}
+
+.svg-border-waves {
+    padding-top: 2rem;
+}
+
+.svg-border-waves svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 100%;
+}
+
+.btn-ng {
+    color: #fff;
+    background-color: #00ba94;
+    border-color: #00ba94;
+    color: white;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    margin-right: 15px;
+    background: #00ba94;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.btn-ng:hover {
+    color: #fff;
+    background-color: #009476;
+    border-color: #00876b;
+}
+
+.btn-ng:focus,
+.btn-ng.focus {
+    color: #fff;
+    background-color: #009476;
+    border-color: #00876b;
+    box-shadow: 0 0 0 0.2rem rgba(38, 196, 164, 0.5);
+}
+
+.dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dropdown-header {
+    width: 500px;
+    margin: 0;
+}
+
+.bg-opacity {
+    background-color: rgba(12, 105, 171);
+    z-index: 0;
+}
+
+.bg-img-cover {
+    background-color: rgba(12, 105, 171);
+    /*chamge img*/
+    style='background-image: url("https://source.unsplash.com/mqO0Rf-PUMs/500x350")'
+}
