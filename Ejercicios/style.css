@@ -287,9 +287,21 @@ body {
   width: 100%;
   background: white;
 }
+/*Border hite*/
+.svg-border-labding-pages svg {
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  width: 100%;
+  background-color: #f8f9fa;
+}
 
-.svg-border-rounded {
-  /* background: white; */
+.svg-border-labding-pages {
+  background: white;
+}
+
+.color-landing-pages {
+  background-color: white;
 }
 
 .list-group li i {
