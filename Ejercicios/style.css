@@ -1,23 +1,39 @@
-.nav-m {
-    height: 100px;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 .home-m {
-    height: 550px;
+    height: 650px;
+    padding-top: 12rem !important;
+    padding-bottom: 10rem !important;
 }
 
 .title {
     font-size: 2.6rem;
     margin-top: 80px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .btn-documentation {
-    color: white;
+    color: #fff;
+    font-size: 0.7rem;
+    margin-right: 15px;
+    padding: 0.8rem 1.5em;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
 }
 
 .subtitle {
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     color: rgba(255, 255, 255, 0.4);
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .bg-gradient {
@@ -25,6 +41,7 @@
     background: rgb(12, 105, 171);
     background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
     border-radius: 100%/0 0 100px 100px;
+    padding-bottom: 6rem;
 }
 
 .svg-border svg {
@@ -36,7 +53,7 @@
 }
 
 .svg-border-waves {
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .svg-border-waves svg {
@@ -53,17 +70,28 @@
     border-color: #00ba94;
     color: white;
     border-radius: 25px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin-right: 15px;
     background: #00ba94;
-    padding: 15px;
+    padding: 0.8rem 1.5em;
     text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-documentation:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .btn-ng:hover {
     color: #fff;
     background-color: #009476;
     border-color: #00876b;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .btn-ng:focus,
@@ -80,17 +108,165 @@
 }
 
 .dropdown-header {
-    width: 500px;
+    width: 600px;
     margin: 0;
 }
 
+.no-gutters {
+    width: 400px;
+}
+
 .bg-opacity {
-    background-color: rgba(12, 105, 171);
-    z-index: 0;
+    background-color: rgba(12, 105, 171, 0.6);
 }
 
 .bg-img-cover {
-    background-color: rgba(12, 105, 171);
+    background-color: rgba(12, 105, 171, 0.6);
     /*chamge img*/
-    style='background-image: url("https://source.unsplash.com/mqO0Rf-PUMs/500x350")'
+    z-index: -1;
+    background-image: url(".assets/bg-leading.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(0, 97, 242, 0.8);
+}
+
+
+/*Navar*/
+
+.dropdown .dropdown-toggle .dropdown-arrow {
+    margin-left: 0.4rem;
+    margin-right: 0;
+}
+
+.navbar-marketing .navbar-nav {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+}
+
+.navbar-brand {
+    font-weight: 400;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.navbar-marketing .navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+}
+
+.mr-lg-5,
+.mx-lg-5 {
+    margin-right: 3rem !important;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.container .nav-title {
+    font-weight: 600;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+
+/*Landing dropdown*/
+
+.btn-white-leadings {
+    color: #0061f2;
+    background-color: white;
+    border-color: #00ba94;
+    color: white;
+    border-radius: 25px;
+    font-size: 0.7rem;
+    margin-right: 15px;
+    background: #00ba94;
+    padding: 0.8rem 1.5em;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    background: white;
+    border: #0061f2 1px solid;
+    cursor: pointer;
+}
+
+.none-padding {
+    padding: 0.5rem;
+    padding-right: 3rem;
+}
+
+.none-padding a {
+    cursor: pointer;
+}
+
+
+/*documentation*/
+
+.item {
+    height: 20px;
+    width: 20px;
+}
+
+.box {
+    background: #bfd6f8;
+    border-radius: 50%;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+}
+
+
+/*Demos*/
+
+.demos-alert {
+    color: #0061f2;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 10rem;
+    background: #bfd6f8;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.demos {
+    padding-top: 4rem;
+    margin: 0px auto;
+    padding-bottom: 4rem;
+}
+
+.demos-title {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #323f52;
+    font-size: 1.4rem;
+}
+
+.demos-text-center {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.bg-inverse {
+    background: rgba(0, 0, 0, .6) !important;
 }
