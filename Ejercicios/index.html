@@ -9,6 +9,7 @@
 />
 
 <!-- Bootstrap CSS -->
+
 <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -26,6 +27,7 @@
     crossorigin="anonymous"
 />
 <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style-mediaQuerys.css">
 
 <title>Home - SB Afmin Pro</title>
 </head>
@@ -35,12 +37,12 @@
     <div>
     <nav
         id="menu"
-        class="navbar navbar-padding navbar-expand-lg navbar-dark fixed-top"
+        class="navbar navbar-padding  navbar-expand-lg navbar-dark fixed-top"
     >
         <div class="container">
         <a class="nav-title text-white">SB UI Kit Pro</a>
         <button
-            class="navbar-toggler"
+            class="navbar-toggler "
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -58,7 +60,7 @@
 
             <li class="nav-item dropdown">
                 <a
-                class="nav-link dropdown-toggle"
+                class="nav-link  dropdown-toggle"
                 role="button"
                 data-toggle="dropdown"
                 >
@@ -264,8 +266,8 @@
 
     <div class="container">
     <!-- home -->
-    <div class="row home-m">
-        <div class="col-6">
+    <div class="row home-m" id='slide-up'>
+        <div class="col-md-6 col-sm-12">
         <h1 class="text-light title">
             Build your next project faster with SB UI Kit Pro
         </h1>
@@ -274,14 +276,14 @@
             interfaces, created by the developmet team at <br />
             Start Bootstrap
         </p>
-        <button href="http:// " class="btn-demo btn-ng">
+        <button href="http:// " class="btn-demo btn-ng" id='btn-move'>
             VIEW DEMO <i class="fas fa-arrow-right ml-1"></i>
         </button>
         <a href="http:// " class="btn-documentation">DOCUMENTATION </a>
         </div>
-        <div class="col-6">
+        <div class="col-6 ">
         <img
-            class="img-fluid"
+            class="img-fluid main-img"
             src="./Recources//recourse-home.svg "
             alt=" "
             srcset=""
@@ -327,51 +329,51 @@
     <div class="row">
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 1 - Multipurpose</p>
-        <img class="img-fluid" src="./assets/demo1.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo1.jpg" alt="" />
     </div>
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 2 - Mobile App</p>
-        <img class="img-fluid" src="./assets/demo2.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo2.jpg" alt="" />
     </div>
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 3 - Desktop App</p>
-        <img class="img-fluid" src="./assets/demo3.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo3.jpg" alt="" />
     </div>
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 4 - Agency</p>
-        <img class="img-fluid" src="./assets/demo4.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo4.jpg" alt="" />
     </div>
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 5 - Lead Capture</p>
-        <img class="img-fluid" src="./assets/demo5.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo5.jpg" alt="" />
     </div>
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 6 - Press</p>
-        <img class="img-fluid" src="./assets/demo6.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo6.jpg" alt="" />
     </div>
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 7 - Directory</p>
-        <img class="img-fluid" src="./assets/demo7.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo7.jpg" alt="" />
     </div>
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 8 - Rental</p>
-        <img class="img-fluid" src="./assets/demo8.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo8.jpg" alt="" />
     </div>
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 9 - Real Estate</p>
-        <img class="img-fluid" src="./assets/demo9.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo9.jpg" alt="" />
     </div>
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 10 - Classifieds</p>
-        <img class="img-fluid" src="./assets/demo1.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo1.jpg" alt="" />
     </div>
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 11 - Resume</p>
-        <img class="img-fluid" src="./assets/demo11.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo11.jpg" alt="" />
     </div>
     <div class="col-4 mb-5">
         <p class="demos-text-centered text-center">Demo 12 - Portfolio</p>
-        <img class="img-fluid" src="./assets/demo12.jpg" alt="" />
+        <img class="img-fluid slideUp" src="./assets/demo12.jpg" alt="" />
     </div>
     </div>
 </div>
@@ -539,27 +541,27 @@
         <div class="row">
           <div class="col-4 mb-5">
             <p class="demos-text-centered text-center">Demo 1 - Basic</p>
-            <img class="img-fluid" src="./assets/header1.jpg" alt="" />
+            <img class="img-fluid slideUp" src="./assets/header1.jpg" alt="" />
           </div>
           <div class="col-4 mb-5">
             <p class="demos-text-centered text-center">Demo 2 - Basic (Signup)</p>
-            <img class="img-fluid" src="./assets/header2.jpg" alt="" />
+            <img class="img-fluid slideUp" src="./assets/header2.jpg" alt="" />
           </div>
           <div class="col-4 mb-5">
             <p class="demos-text-centered text-center">Demo 3 - Graphic</p>
-            <img class="img-fluid" src="./assets/header3.jpg" alt="" />
+            <img class="img-fluid slideUp" src="./assets/header3.jpg" alt="" />
           </div>
           <div class="col-4 mb-5">
             <p class="demos-text-centered text-center">Demo 4 - Graphic (Signup)</p>
-            <img class="img-fluid" src="./assets/header4.jpg" alt="" />
+            <img class="img-fluid slideUp" src="./assets/header4.jpg" alt="" />
           </div>
           <div class="col-4 mb-5">
             <p class="demos-text-centered text-center">Demo 5 - Inner Page</p>
-            <img class="img-fluid" src="./assets/header5.jpg" alt="" />
+            <img class="img-fluid slideUp" src="./assets/header5.jpg" alt="" />
           </div>
           <div class="col-4 mb-5">
             <p class="demos-text-centered text-center">Demo 6 - Nav Only</p>
-            <img class="img-fluid" src="./assets/header6.jpg" alt="" />
+            <img class="img-fluid slideUp" src="./assets/header6.jpg" alt="" />
           </div>
         </div>
     </div>
@@ -628,7 +630,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 ">
-                    <button class="btn-primary documentation-button d-flex justify-content-center ">View Documentation</button>
+                    <button class="btn-primary documentation-button d-flex justify-content-center " id='btn-move'>View Documentation</button>
                 </div>
             </div>
         </div>
@@ -729,6 +731,7 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV "
       crossorigin="anonymous "
     ></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
