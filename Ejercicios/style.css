@@ -311,3 +311,77 @@ body {
 .border {
   border: 2px;
 }
+
+/*Documentation*/
+
+.documentation-number {
+  color: #c5ccd6 !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  font-size: 5.5rem;
+}
+
+.documentation-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #323f52;
+}
+
+.documentation-text {
+  margin-top: 0;
+}
+
+.down {
+  margin-bottom: 10rem;
+}
+
+.documentation-button {
+  color: #fff;
+  background-color: #0061f2;
+  border-color: #0061f2;
+  color: white;
+  border-radius: 25px;
+  font-size: 0.7rem;
+  margin-right: 15px;
+  background: #0061f2;
+  padding: 0.8rem 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.documentation-button:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.documentation-button:hover {
+  color: #fff;
+  background-color: #0061f2;
+  border-color: #0061f2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.documentation-button:focus,
+.documentation-button.focus {
+  color: #fff;
+  background-color: #0061f2;
+  border-color: #0061f2;
+  box-shadow: 0 0 0 0.2rem rgba(0, 97, 242, 0.5);
+}
+
+/*Footer*/
+
+footer {
+  background-color: white;
+}
+
+.icons i {
+  color: #c5ccd6 !important;
+}
