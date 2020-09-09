@@ -21,11 +21,11 @@ $(document).ready(function () {
 
   var img = $("img.slideUp");
 
-  //   img.hover(function (e) {
-  //     img
-  //       .animate({ marginTop: "200px", position: "relative" }, 300)
-  //       .animate({ marginTop: "0px" }, 300);
-  //   });
+  // img.hover(function (e) {
+  //   img
+  //     .animate({ marginTop: "200px", position: "relative" }, 300)
+  //     .animate({ marginTop: "0px" }, 300);
+  // });
   //   $(window).load(function () {
   //     $("#slide-up").slideUp();
   //   });
