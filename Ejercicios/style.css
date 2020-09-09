@@ -380,8 +380,60 @@ body {
 
 footer {
   background-color: white;
+  padding-top: 6rem !important;
+}
+
+.footer-space {
+  background-color: white;
+  padding-bottom: 2rem !important;
+}
+
+.footer-line {
+  border-top: #c5ccd6 solid 1px;
+  padding-top: 2rem !important;
 }
 
 .icons i {
   color: #c5ccd6 !important;
+}
+
+.footer-main-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #a2acba;
+  display: block;
+}
+.footer-normal-text {
+  margin-bottom: 1rem !important;
+  color: #a2acba;
+  display: block;
+}
+
+.footer-title {
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #a2acba;
+  display: block;
+}
+
+.footer-option {
+  text-decoration: none;
+  color: #a2acba;
+  background-color: transparent;
+  font-weight: 200;
+  color: inherit !important;
+  cursor: pointer;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.footer-option:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.copyright a {
+  color: #a2acba;
 }
