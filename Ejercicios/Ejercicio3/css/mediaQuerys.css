@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1200px) {
+  .top-no-padding {
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .ml-10 {
+    margin-left: 0rem;
+  }
+}
