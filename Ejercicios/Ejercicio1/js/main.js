@@ -1,4 +1,8 @@
 $(document).ready(function () {
+  if ($(window).width() < 900) {
+    console.log("si");
+  }
+
   $(window).scroll(function () {
     console.log("funca");
     var menu = $("#menu");

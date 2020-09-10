@@ -2,6 +2,9 @@
   .top-no-padding {
     height: 15rem;
   }
+  .nav-title {
+    margin-left: -15px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -9,4 +12,25 @@
     margin-left: 0rem;
     margin-top: 3rem;
   }
+  .nav-title {
+    margin-left: 30px;
+  }
+  .navbar-nav {
+    padding-left: 30px;
+  }
+  .btn-demo {
+    margin-left: 30px;
+  }
+  .navbar-collapse {
+    margin-bottom: 1rem;
+  }
+}
+
+.margin-top-item {
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+}
+
+.img-comun {
+  padding-right: 0;
 }
