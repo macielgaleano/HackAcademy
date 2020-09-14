@@ -15,6 +15,7 @@ function encontrarImpar(arrayNumeros) {
           veces: 0,
         };
         cantidadImpares.push(newItem);
+        console.log(cantidadImpares);
       }
       var indexImp_value = indexImp;
     }
@@ -27,4 +28,4 @@ function encontrarImpar(arrayNumeros) {
   }
 }
 
-alert(encontrarImpar([0, 0, 0, 0, 0, 0, 9]));
+console.log(encontrarImpar([0, 0, 0, 0, 0, 0, 9]));
