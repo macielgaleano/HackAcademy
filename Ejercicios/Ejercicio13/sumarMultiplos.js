@@ -19,5 +19,9 @@ function sumarMultiplos(max) {
   });
 
   console.log("La suma es: " + suma);
+
+  if (suma == " ") {
+    console.log("La suma es: " + 0);
+  }
 }
-sumarMultiplos(20);
+sumarMultiplos(2);
