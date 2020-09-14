@@ -286,6 +286,15 @@ body {
   height: 3rem;
   width: 100%;
 }
+
+.svg-border-rounded-white svg {
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  width: 100%;
+  background-color: white;
+}
+
 /*Border hite*/
 .svg-border-labding-pages svg {
   bottom: 0;
