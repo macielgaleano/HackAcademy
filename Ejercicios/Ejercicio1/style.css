@@ -44,8 +44,6 @@ body {
     #0061f2 0%,
     rgba(105, 0, 199, 0.8) 100%
   );
-  border-radius: 100%/0 0 100px 100px;
-  padding-bottom: 6rem;
 }
 
 .svg-border svg {
@@ -54,6 +52,7 @@ body {
   left: 0;
   height: 3rem;
   width: 100%;
+  background: white;
 }
 
 .svg-border-waves {
@@ -286,7 +285,6 @@ body {
   left: 0;
   height: 3rem;
   width: 100%;
-  background: white;
 }
 /*Border hite*/
 .svg-border-labding-pages svg {
@@ -294,11 +292,11 @@ body {
   left: 0;
   height: 3rem;
   width: 100%;
-  background-color: #f8f9fa;
+  color: white;
 }
 
 .svg-border-labding-pages {
-  background: white;
+  color: white;
 }
 
 .color-landing-pages {
