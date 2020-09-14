@@ -1,29 +1,30 @@
 function caminoOptimo(ruta) {
-  var actual = "";
-  var ruta_array = ruta;
-  var siguiente = "";
-  for (let index = 0; index < 4; index + 1) {
-    arrayDevuelto = [];
-    actual = ruta[index];
-    siguiente = ruta[index + 1];
-    console.log(actual, siguiente);
+  for (let index = 0; index < ruta.length; index + 2) {
+    var indexValue = index;
+    var arrayDevuelto = [];
+    var actual = ruta[indexValue];
+    var siguiente = ruta[indexValue + 1];
+    console.log(indexValue, actual, siguiente);
     if (actual == siguiente) {
       arrayDevuelto.push(actual);
       arrayDevuelto.push(siguiente);
-    }
-    if (
+    } else if (
       (actual == "ESTE" && siguiente == "OESTE") ||
       (siguiente == "ESTE" && actual == "OESTE")
     ) {
+      break;
     } else if (
       (actual == "SUR" && siguiente == "NORTE") ||
       (siguiente == "NORTE" && actual == "SUR")
     ) {
+      break;
     } else {
       arrayDevuelto.push(actual);
       arrayDevuelto.push(siguiente);
+      console.log(arrayDevuelto);
+      break;
     }
   }
-  console.log(arrayDevuelto);
+  return arrayDevuelto;
 }
 // caminoOptimo(["NORTE", "OESTE", "SUR", "ESTE"]);
