@@ -4,7 +4,7 @@ function caminoOptimo(camino) {
   var nuevoCamino = [];
   nuevoCamino[0] = camino[0];
 
-  for (let i = 0; i < camino.length; i++) {
+  for (let i = 1; i < camino.length; i++) {
     var ultimoElemenNuevoCamino = nuevoCamino[nuevoCamino.length - 1];
 
     if (
@@ -18,7 +18,11 @@ function caminoOptimo(camino) {
       nuevoCamino.push(camino[i]);
     }
   }
+
+  return nuevoCamino;
 }
+
+console.log(caminoOptimo(["NORTE", "SUR", "ESTE", "NORTE", "NORTE"]));
 
 // function caminoOptimo(ruta) {
 //   for (let index = 0; index < ruta.length; index + 2) {

@@ -1,21 +1,28 @@
-function parentesisCorrectos(string) {
-  var ArrayCadenas = string.split("");
-  var curved_r = 0;
-  var curved_l = 0;
+function parentesisCorrectos(arr) {
+  if (arr.length % 2 === 1) return false;
+  if (arr[0] !== "(") return false;
+  if (arr[arr.length - 1] !== ")") return false;
 
-  for (let index = 0; index <= ArrayCadenas.length; index++) {
-    if (ArrayCadenas[index] == ")") {
-      curved_r = curved_r + 1;
-    }
-    if (ArrayCadenas[index] == "(") {
-      curved_l = curved_l + 1;
+  var flagChange = "(";
+
+  while (arr.length !== 0) {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] !== []) {
+        if (arr[i] === flagChange) {
+          console.log(arr);
+          if (flagChange === ")") {
+            flagChange = "(";
+          } else if (flagChange === "(") {
+            flagChange = ")";
+          }
+          arr.splice(i, 1);
+        } else if (arr[i] !== flagChange && i != arr.length) {
+          return false;
+        }
+      }
     }
   }
-  if (curved_r == curved_l) {
-    return true;
-  } else {
-    return false;
-  }
+  return true;
 }
 
-console.log(parentesisCorrectos(")(())))"));
+console.log(parentesisCorrectos(["(", "(", "(", ")", ")", ")"]));
