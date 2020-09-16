@@ -13,6 +13,7 @@ $(document).ready(function () {
     audioElement.setAttribute("src", sounds[0]);
     this.appendChild(audioElement);
     audioElement.play();
+    // audioElement.remove();
   });
   $("#6").on("click", function () {
     var audioElement = document.createElement("audio");
