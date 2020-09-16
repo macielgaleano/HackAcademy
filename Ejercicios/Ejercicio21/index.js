@@ -35,7 +35,7 @@ $(document).ready(function () {
               flag_lastWrited = lastWrited;
               $("tr td").remove();
               for (let i = 0; i < users.length; i++) {
-                var regex = "/.*" + lastWrited + ".*/";
+                var regex = ".*" + lastWrited + ".*";
                 console.log(regex);
                 var regex = new RegExp(regex);
                 var matches = regex.test(usuarios[i].firstname);
