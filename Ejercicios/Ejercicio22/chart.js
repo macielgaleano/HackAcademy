@@ -11,19 +11,18 @@ $(document).ready(function () {
       values = value;
       console.log(values);
       for (let i = 0; i < values.length; i++) {
-        lablesYears.push(values[i].date);
+        lablesYears.push(parseInt(values[i].date));
         data.push(values[i].value);
       }
       console.log(lablesYears, data);
+      var speedCanvas = document.getElementById("speedChart");
+
+      var lineChart = new Chart(speedCanvas, {
+        type: "line",
+        data: speedData,
+        options: chartOptions,
+      });
     });
-});
-
-var speedCanvas = document.getElementById("speedChart");
-
-var lineChart = new Chart(speedCanvas, {
-  type: "line",
-  data: speedData,
-  options: chartOptions,
 });
 
 Chart.defaults.global.defaultFontFamily = "Lato";
